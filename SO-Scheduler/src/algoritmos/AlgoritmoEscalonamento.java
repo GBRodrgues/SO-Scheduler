@@ -1,5 +1,6 @@
+package algoritmos;
 import java.util.List;
 
-public interface SchedulingAlgorithm {
+public interface AlgoritmoEscalonamento {
     void execute(List<Process> processes);
 }
